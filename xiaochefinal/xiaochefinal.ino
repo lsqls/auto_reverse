@@ -9,7 +9,7 @@ SoftwareSerial myserial(12,13);
 int val;
 //----------------舵机
 #include <Servo.h>
-Servo myservo;  
+Servo myservo; 
 #define servo_pin SDA
 float pos = 0;    // variable to store the servo position
 //-------------------红外
